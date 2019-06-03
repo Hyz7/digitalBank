@@ -1,0 +1,37 @@
+@media only screen and (max-width: 768px) {
+  .main-container{
+    .item1{
+      position: relative;
+      &>img{
+        max-width: 100%;
+        height: 4.72rem;
+      }
+      .item1pos{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0.8rem 0 0.3rem 0.3rem;
+        .item1content{
+          &>img{
+            margin-top: 0.35rem;
+            cursor: pointer;
+            width: 2rem;
+          }
+          .title{
+            font-size: 0.4rem;
+            color: #fff;
+            width: 4.2rem;
+            margin-bottom: 0.3rem;
+          }
+          p{
+            font-size: 0.18rem;
+            color: white;
+          }
+        }
+      }
+    }
+    #single{
+      display: none;
+    }
+  }
+}

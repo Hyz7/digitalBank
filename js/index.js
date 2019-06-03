@@ -1,8 +1,8 @@
 $(function () {
-	$('.item').hover(function () {
-        // $(this).find('.submenu li').stop().fadeIn()
-
-    },function () {
-        // $(this).find('.submenu').fadeOut().stop()
+	$('.header-list').on('click',function () {
+        $(this).find('.header-list-content').toggle()
+    })
+    $('.header-list-content li').on('click',function () {
+        $('.header-list-content').hide()
     })
 })
