@@ -1,0 +1,168 @@
+body {
+  background: #ddf4ff url("../images/surveybg.png") repeat-x;
+  width: 100%;
+  .footer-container{
+    background-color: #4C4C4C;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    .text{
+      background-color: #4C4C4C;
+      height: 60px;
+      text-align: center;
+      color: #fff;
+    }
+  }
+}
+
+.container {
+  padding-top: 200px;
+  .content {
+    margin: 0 auto;
+    width: 920px;
+    text-align: left;
+    padding: 0!important;
+    .main {
+      background: white no-repeat;
+      width: 920px;
+      .survey {
+        line-height: 20px;
+        word-wrap: break-word;
+        padding: 0;
+        .surveyHead {
+          line-height: 20px;
+          text-align: center;
+          padding: 40px 2% 30px;
+          margin: 0 auto;
+          h1 {
+            font-size: 24px !important;
+            font-weight: bold;
+            color: #19a8ee;
+            vertical-align: middle;
+            padding: 15px 0;
+            line-height: 24px;
+          }
+          .surveyDescription {
+            color: #555555;
+            line-height: 24px;
+            text-align: center;
+            font-size: 16px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #ccc;
+            margin-left: 0;
+            margin-top: 20px;
+          }
+        }
+        .surveyContent {
+          margin: 0;
+          width: 100%;
+          .fieldset {
+            display: block;
+            margin-inline-start: 2px;
+            margin-inline-end: 2px;
+            padding-block-start: 0.35em;
+            padding-inline-start: 0.75em;
+            padding-inline-end: 0.75em;
+            padding-block-end: 0.625em;
+            min-inline-size: min-content;
+            .div-question {
+              padding: 4px;
+              clear: both;
+              margin: 2px auto 10px;
+              width: 716.45px;
+              height: auto;
+              .title {
+                padding-top: 2px;
+                font-size: 15px;
+                color: #444444;
+                font-weight: bold;
+                height: auto;
+                line-height: 20px;
+                position: relative;
+                .title-word {
+                  overflow: hidden;
+                  zoom: 1;
+                  .req {
+                    color: red;
+                    font-weight: bold;
+                    position: absolute;
+                    top: 3px;
+                    left: -10px;
+                  }
+                }
+              }
+              .radio {
+                clear: both;
+                padding-top: 5px;
+                padding-left: 24px;
+                padding-bottom: 25px;
+                border-bottom: 1px solid #EFEFEF;
+                font-size: 15px;
+                color: #333333;
+                .inputtext {
+                  line-height: 22px;
+                  font-size: 16px;
+                  border: solid 1px #cdcdcd;
+                  padding: 3px;
+                  vertical-align: middle;
+                }
+                & > img {
+                  max-width: 100%;
+                  overflow: hidden;
+                }
+                ul {
+                  padding: 0;
+                  margin: 0;
+                  list-style: none;
+                  border: none;
+                  li:hover {
+                    background: rgb(239, 239, 239);
+                  }
+                  li {
+                    cursor: pointer;
+                    line-height: 30px;
+                    position: relative;
+                    width: 99%;
+                    a {
+                      background: transparent url("../images/radio.gif") no-repeat;
+                      background-position: 0 0;
+                      vertical-align: middle;
+                      height: 16px;
+                      width: 18px;
+                      _font-size: 10px;
+                      display: inline-block;
+                      position: absolute;
+                      top: 6px;
+                    }
+                  }
+                  li.active {
+                    a {
+                      background: transparent url("../images/radio.gif") no-repeat;
+                      background-position: 0 -16px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .submit-div {
+          .submit-button {
+            margin: 20px auto;
+            border: 1px solid #0492d6;
+            background: #13a5ec;
+            padding: 0 24px;
+            height: 32px;
+            font-size: 16px;
+            color: #fff;
+            border-radius: 5px;
+            display: block;
+            line-height: 30px;
+            text-align: center;
+          }
+        }
+      }
+
+    }
+  }
+}
