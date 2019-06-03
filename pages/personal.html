@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     <title>个人</title>
-    <link rel="stylesheet/less" type="text/css" href="../css/init.less" />
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="../css/swiper.css" />
+    <link rel="stylesheet/less" type="text/css" href="../css/init.less"/>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/swiper.css"/>
     <link rel="stylesheet/less" href="../css/personal.less">
+    <link rel="stylesheet/less" href="../css/personal.768.less">
     <script src="../js/pm.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="../js/less.js" type="text/javascript" charset="utf-8"></script>
     <script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
@@ -74,8 +75,6 @@
                         <li><a href="/lee/winxinpay/ceshirukouGR.asp" target="_blank">个人购买</a></li>
 
 
-
-
                     </ul>
                 </div>
 
@@ -129,7 +128,10 @@
                         <li><a href="/nt/softnew/reports.asp">媒体报道</a></li>
                         <li><a href="/mensa/zhaopin/" target="_blank">加入才储</a></li>
                         <!--							  <li><a href="/jew/jiangshi" target="_blank">讲师招募</a></li>
-                        -->							   <li><a href="https://www.baidu.com/s?wd=%E5%8F%A3%E5%8F%A3%E7%9B%B8%E4%BC%A0%E7%9A%84%E6%89%8D%E5%82%A8%E5%85%AC%E5%8F%B8&amp;rsf=9&amp;rsp=0&amp;f=1&amp;oq=%E6%89%8D%E5%82%A8%20%E5%8F%A3%E5%8F%A3%E7%9B%B8%E4%BC%A0&amp;tn=49029047_oem_dg&amp;ie=utf-8&amp;ch=33&amp;rsv_pq=e4e6201100000917&amp;rsv_t=544b80JQX6daDqsEL5SRPkJfy91KunNUNdTobYYN24hYLI3bw%2B%2BCWqTLX%2BOmYxBWPuheNcym&amp;rqlang=cn&amp;rs_src=0" target="_blank">才储口碑</a></li>
+                        -->
+                        <li>
+                            <a href="https://www.baidu.com/s?wd=%E5%8F%A3%E5%8F%A3%E7%9B%B8%E4%BC%A0%E7%9A%84%E6%89%8D%E5%82%A8%E5%85%AC%E5%8F%B8&amp;rsf=9&amp;rsp=0&amp;f=1&amp;oq=%E6%89%8D%E5%82%A8%20%E5%8F%A3%E5%8F%A3%E7%9B%B8%E4%BC%A0&amp;tn=49029047_oem_dg&amp;ie=utf-8&amp;ch=33&amp;rsv_pq=e4e6201100000917&amp;rsv_t=544b80JQX6daDqsEL5SRPkJfy91KunNUNdTobYYN24hYLI3bw%2B%2BCWqTLX%2BOmYxBWPuheNcym&amp;rqlang=cn&amp;rs_src=0"
+                               target="_blank">才储口碑</a></li>
                     </ul>
                 </div>
             </li>
@@ -140,282 +142,315 @@
         </div>
     </div>
 </div>
-    <div class="container">
-
-        <div class="banner"></div>
-        <div class="position">
-            <div class="choiceList">
-                <div class="scrollNav">
-                    <div>
-                        <span class="xian"></span>
-                        <ul class="ul-nav">
-                            <li>
-                                <a href="#diyibu">
-                                    <span class="circle"></span>
-                                    MBTI第一步
-                                </a>
+<div class="container">
+    <div class="banner"></div>
+    <div class="position">
+        <div class="choiceList">
+            <div class="scrollNav">
+                <div>
+                    <span class="xian"></span>
+                    <ul class="ul-nav">
+                        <li>
+                            <a href="#diyibu">
+                                <span class="circle"></span>
+                                MBTI第一步
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#dierbu">
+                                <span class="circle"></span>
+                                MBTI第二步
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#ape-primary">
+                                <span class="circle"></span>
+                                APESK高考测试初级版
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#ape-advance">
+                                <span class="circle"></span>
+                                APESK高考测试高级版
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#disc-primary">
+                                <span class="circle"></span>
+                                DISC初级版
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#disc-advance">
+                                <span class="circle"></span>
+                                DISC高级版
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#huolande">
+                                <span class="circle"></span>
+                                霍兰德职业兴趣测试
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#zhiyemao">
+                                <span class="circle"></span>
+                                职业锚测试
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="listMain">
+            <div class="mainTitle">了解自己</div>
+            <div class="mainBox">
+                <ul style="overflow-x:inherit;">
+                    <li id="diyibu" class="subTitle">
+                        MBTI第一步
+                        <div class="subTitle-line"></div>
+                    </li>
+                    <li class="description">
+                        MBTI是一种迫选型、自我报告式的性格评估理论模型，用以衡量和描述人们在获取信息、作出决策、对待生活等方面的心理活动规律和性格类型。通过MBTI模型，性格和职业之间的联系得到了比较清晰地阐释。MBTI有长达70多年的实践以及广泛的职业常模数据。
+                    </li>
+                </ul>
+                <div class="mainBtn">
+                    <div class="mainBtn new">
+                        <div class="mainBtn1">
+                            <a href="survey.html">迫选测试</a>
+                        </div>
+                        <div class="mainBtn1 rightBtn">
+                            <a href="javascript:void(0)">非迫选测试</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainLine"></div>
+            </div>
+            <div class="mainBox">
+                <ul style="overflow-x:inherit;">
+                    <li id="dierbu" class="subTitle">MBTI第二步
+                        <div class="subTitle-line"></div>
+                    </li>
+                    <li class="description">
+                        实际上，我们大多数人总会存在一些模糊和未知的维度。而MBTI第一步的结果描述是针对极其典型性格类型的描述——所以常出现MBTI第一步的分析结果中有和受测者不甚相符的地方。
+                        鉴于此，佛罗里达大学心理类型应用中心（CAPT）1978年将MBTI升级到量表K，开发出“MBTI第二步”（StepⅡ），把每个维度进一步细分为5个子维度，如外向又细分为Initiating(主动提出)，Expressive(擅于表达)，Gregarious(合群)，Active(活跃)，Enthusiastic(热情)五个子维度，内向又细分为Receiving(被动接受)，Contained(内敛)，Intimate(寻求亲密)，Reflective(内省)
+                        ，Quiet(沉静)五个子维度。通过复杂的计算机计分程序产生结果——“扩展解释报告”（EIR）——大大提升了性格类型评估的精度和深度。
+                    </li>
+                </ul>
+                <div class="mainBtn">
+                    <div class="mainBtn new">
+                        <div class="mainBtn2">
+                            <a href="javascript:void(0)">了解并测试</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainLine"></div>
+            </div>
+            <div class="mainBox">
+                <ul style="overflow-x:inherit;">
+                    <li id="ape-primary" class="subTitle">APESK高考测试初级版
+                        <div class="subTitle-line"></div>
+                    </li>
+                    <li class="description">我性格内向/外向，适合学什么专业？”“我的性格将来适合从事什么职业？”“以我的个性从事什么行业好？”“我这样性格的人选什么专业好？”
+                        不论是高考后面临专业选择的同学，还是正待走进职场的毕业生，还是工作了一段时间的人，面对这类问题都会感到困惑——性格因素和专业选择之间到底有什么样的关联呢？
+                    </li>
+                </ul>
+                <div class="mainBtn">
+                    <div class="mainBtn new">
+                        <div class="mainBtn2">
+                            <a href="javascript:void(0)">了解并测试</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainLine"></div>
+            </div>
+            <div class="mainBox">
+                <ul style="overflow-x:inherit;">
+                    <li id="ape-advance" class="subTitle">APESK高考测试高级版
+                        <div class="subTitle-line"></div>
+                    </li>
+                    <li class="description">APESK专业选择评估分析报告比初级版有更多细致的呈现，一共32页，包含「专业适合度指数——从106个专业中，直接为你提供一个数量化的适合专业排行」
+                        、「职业兴趣——报告将我们的职业兴趣分为6个领域。并重点解析你主要的职业兴趣」 、「人格特质——帮助你进行自我认知，了解自己思维和决策的偏好，帮助你在专业选择时作出更理性的选择」。
+                    </li>
+                </ul>
+                <div class="mainBtn">
+                    <div class="mainBtn new">
+                        <div class="mainBtn2">
+                            <a href="javascript:void(0)">了解并测试</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainLine"></div>
+            </div>
+            <div class="mainBox">
+                <ul style="overflow-x:inherit;">
+                    <li id="disc-primary" class="subTitle">DISC初级版
+                        <div class="subTitle-line"></div>
+                    </li>
+                    <li class="description">
+                        20世纪20年代，美国心理学家威廉.莫尔顿.马斯顿创建了一个理论来解释人的情绪反应，在此之前，这种工作主要局限在对于精神病患者或精神失常人群的研究，而马斯顿博士则希望扩大这个研究范围，以运用于心理健康的普通人群，因此，马斯顿博士将他的理论构建为一个体系，即：The
+                        Emotions of Normal People“正常人的情绪”。
+                    </li>
+                </ul>
+                <div class="mainBtn">
+                    <div class="mainBtn new">
+                        <div class="mainBtn2">
+                            <a href="javascript:void(0)">了解并测试</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainLine"></div>
+            </div>
+            <div class="mainBox">
+                <ul style="overflow-x:inherit;">
+                    <li id="disc-advance" class="subTitle">DISC高级版
+                        <div class="subTitle-line"></div>
+                    </li>
+                    <li class="description">
+                        DISC完整版报告涵盖了众多直观的因素呈现，比如候选人于团队的正面特征，于团队的价值，应对团队中的冲突、谈判作风、压力状态、如何有效管理、不同职业领域表现预测（管理领域表现预测、技术领域表表现预测、销售领域表现预测、服务领域表现预测）以及发展建议。
+                        DISC完整测评系统一共生成三张图形。分别是“外在行为图示”，“内在行为图示”，以及“综合行为图示”。内在“本我”行为：“本我”是个体天生的、固有的行为模式，代表着个体最自然真实的内在动机和欲求。内在行为模式构成了DISC分析表系列的三个基本图形之一。
+                    </li>
+                </ul>
+                <div class="mainBtn">
+                    <div class="mainBtn new">
+                        <div class="mainBtn1">
+                            <a href="javascript:void(0)">报告样本</a>
+                        </div>
+                        <div class="mainBtn1 rightBtn">
+                            <a href="javascript:void(0)">开始测试</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainLine"></div>
+            </div>
+            <div class="mainBox">
+                <ul style="overflow-x:inherit;">
+                    <li id="huolande" class="subTitle">霍兰德职业兴趣测试
+                        <div class="subTitle-line"></div>
+                    </li>
+                    <li class="description">兴趣测验的研究可以追溯到20世纪初，桑代克于1912
+                        年对兴趣和能力的关系进行了探讨。1915年詹穆士发展了一个关于兴趣的问卷，标志着兴趣测验的系统研究的开始。1927年，斯特朗编制了斯特朗职业兴趣调查表，是最早的职业兴趣测验。库德又在1939
+                        年发表了库德爱好调查表。1953年编制了职业偏好量表，并在此基础上发展了自我指导探索（1969），据此提出了“人格特质与工作环境相匹配”的理论（1970）。不难看出，在Holland职业兴趣理论提出之前，关于职业兴趣测试和个体分析是孤立的，Holland将二者有机结合起来。
+                    </li>
+                </ul>
+                <div class="mainBtn">
+                    <div class="mainBtn new">
+                        <div class="mainBtn2">
+                            <a href="javascript:void(0)">了解并测试</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainLine"></div>
+            </div>
+            <div class="mainBox">
+                <ul style="overflow-x:inherit;">
+                    <li id="zhiyemao" class="subTitle">职业锚测试
+                        <div class="subTitle-line"></div>
+                    </li>
+                    <li class="description">职业锚理论（Career Anchor
+                        Theory）产生于在职业生涯规划领域具有“教父”级地位的美国麻省理工大学斯隆商学院、美国著名的职业指导专家埃德加·H·施恩（Edgar.H.Schein）教授领导的专门研究小组，是对该学院毕业生的职业生涯研究中演绎成的。斯隆管理学院的44名MBA毕业生，自愿形成一个小组接受施恩教授长达12年的职业生涯研究，包括面谈、跟踪调查、公司调查、人才测评、问卷等多种方式，最终分析总结出了职业锚(又称职业定位)理论。
+                    </li>
+                </ul>
+                <div class="mainBtn">
+                    <div class="mainBtn new">
+                        <div class="mainBtn2">
+                            <a href="javascript:void(0)">了解并测试</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-container">
+        <div class="text">Copyright ©2019 shuyingkeji.com 成都数银科技有限公司 蜀ICP备xxxxxxx号</div>
+    </div>
+    <!--<div class="footer">
+        <div class="footer-inner">
+            <div>
+                <ul class="footer-nav" style="float: none; position: relative; overflow: hidden;">
+                    <li class="grid" style="margin-right: 80px;">
+                        <ul class="items" style="width: 260px">
+                            <li class="liHeader">
+                                <span>联系我们</span>
                             </li>
-                            <li>
-                                <a href="#dierbu">
-                                    <span class="circle"></span>
-                                    MBTI第二步
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#ape-primary">
-                                    <span class="circle"></span>
-                                    APESK高考测试初级版
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#ape-advance">
-                                    <span class="circle"></span>
-                                    APESK高考测试高级版
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#disc-primary">
-                                    <span class="circle"></span>
-                                    DISC初级版
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#disc-advance">
-                                    <span class="circle"></span>
-                                    DISC高级版
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#huolande">
-                                    <span class="circle"></span>
-                                    霍兰德职业兴趣测试
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#zhiyemao">
-                                    <span class="circle"></span>
-                                    职业锚测试
-                                </a>
+                            <a href="javascript:void(0)">在线客服(工作时间)</a>
+                            <br/>
+                            <li class="contactUs">
+                                <div>
+                                    <span>技术支持</span>
+                                    <span>服务热线：028-6385-2532</span>
+                                    <span>企业邮箱企业邮箱：sxx@sixuexing.com</span>
+                                    <span>企业QQ：2507819723</span>
+                                </div>
                             </li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="listMain">
-                <div class="mainTitle">了解自己</div>
-                <div class="mainBox">
-                    <ul style="overflow-x:inherit;">
-                            <li id="diyibu" class="subTitle">
-                                MBTI第一步
-                                <div class="subTitle-line"></div>
+                    </li>
+                    <li class="grid">
+                        <ul class="items">
+                            <li class="liHeader">
+                                <span>企业服务</span>
                             </li>
-                        <li class="description">MBTI是一种迫选型、自我报告式的性格评估理论模型，用以衡量和描述人们在获取信息、作出决策、对待生活等方面的心理活动规律和性格类型。通过MBTI模型，性格和职业之间的联系得到了比较清晰地阐释。MBTI有长达70多年的实践以及广泛的职业常模数据。</li>
-                    </ul>
-                    <div class="mainBtn">
-                        <div class="mainBtn new">
-                            <div class="mainBtn1">
-                                <a href="survey.html">迫选测试</a>
-                            </div>
-                            <div class="mainBtn1 rightBtn">
-                                <a href="javascript:void(0)">非迫选测试</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mainLine"></div>
-                </div>
-                <div class="mainBox">
-                    <ul style="overflow-x:inherit;">
-                        <li id="dierbu" class="subTitle">MBTI第二步<div class="subTitle-line"></div></li>
-                        <li class="description">实际上，我们大多数人总会存在一些模糊和未知的维度。而MBTI第一步的结果描述是针对极其典型性格类型的描述——所以常出现MBTI第一步的分析结果中有和受测者不甚相符的地方。 鉴于此，佛罗里达大学心理类型应用中心（CAPT）1978年将MBTI升级到量表K，开发出“MBTI第二步”（StepⅡ），把每个维度进一步细分为5个子维度，如外向又细分为Initiating(主动提出)，Expressive(擅于表达)，Gregarious(合群)，Active(活跃)，Enthusiastic(热情)五个子维度，内向又细分为Receiving(被动接受)，Contained(内敛)，Intimate(寻求亲密)，Reflective(内省) ，Quiet(沉静)五个子维度。通过复杂的计算机计分程序产生结果——“扩展解释报告”（EIR）——大大提升了性格类型评估的精度和深度。</li>
-                    </ul>
-                    <div class="mainBtn">
-                        <div class="mainBtn new">
-                            <div class="mainBtn2">
-                                <a href="javascript:void(0)">了解并测试</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mainLine"></div>
-                </div>
-                <div class="mainBox">
-                    <ul style="overflow-x:inherit;">
-                        <li id="ape-primary" class="subTitle">APESK高考测试初级版<div class="subTitle-line"></div></li>
-                        <li class="description">我性格内向/外向，适合学什么专业？”“我的性格将来适合从事什么职业？”“以我的个性从事什么行业好？”“我这样性格的人选什么专业好？” 不论是高考后面临专业选择的同学，还是正待走进职场的毕业生，还是工作了一段时间的人，面对这类问题都会感到困惑——性格因素和专业选择之间到底有什么样的关联呢？</li>
-                    </ul>
-                    <div class="mainBtn">
-                        <div class="mainBtn new">
-                            <div class="mainBtn2">
-                                <a href="javascript:void(0)">了解并测试</a>
+                            <li><a href="javascript:void(0)">帮助中心</a></li>
+                            <li><a href="javascript:void(0)">样本下载</a></li>
+                            <li><a href="javascript:void(0)">典型客户</a></li>
+                            <li><a href="javascript:void(0)">一键查询</a></li>
+                            <li><a href="javascript:void(0)">接口文档</a></li>
+                            <li><a href="javascript:void(0)">操作指南</a></li>
+                            <li><a href="javascript:void(0)">视频教程</a></li>
+                        </ul>
+                    </li>
+                    <li class="grid">
+                        <ul class="items">
+                            <li class="liHeader">
+                                <span>数银相关</span>
+                            </li>
+                            <li><a href="javascript:void(0)">数银作品</a></li>
+                            <li><a href="javascript:void(0)">研究项目</a></li>
+                            <li><a href="javascript:void(0)">公司简介</a></li>
+                            <li><a href="javascript:void(0)">加入我们</a></li>
+                            <li><a href="javascript:void(0)">个人帮助</a></li>
+                            <li><a href="javascript:void(0)">媒体报道</a></li>
+                            <li><a href="javascript:void(0)">默契APP</a></li>
+                        </ul>
+                    </li>
+                    <li class="grid">
+                        <div class="items" style="width: 162px">
+                            <img src="https://www.sixuexing.com/images/7a1be5e083829cd2b701f6cadc9fa2e9.png"
+                                 alt="" style="width: 162px;">
+                            <p style="padding-top: 15px; width: 162px;">公众号:思学行</p>
+                            <div style="margin: 0 auto; margin-top: 10px; width: 162px; text-align: center;" class="gridBox">
+                                <a href="https://weibo.com/u/6774617268" style="line-height: 32px;">
+                                    <img src="../images/icon_weibo.png" alt="" style="width: 33px;">
+                                    <span style="display: inline;">官方微博</span>
+                                </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="mainLine"></div>
-                </div>
-                <div class="mainBox">
-                    <ul style="overflow-x:inherit;">
-                        <li id="ape-advance" class="subTitle">APESK高考测试高级版<div class="subTitle-line"></div></li>
-                        <li class="description">APESK专业选择评估分析报告比初级版有更多细致的呈现，一共32页，包含「专业适合度指数——从106个专业中，直接为你提供一个数量化的适合专业排行」 、「职业兴趣——报告将我们的职业兴趣分为6个领域。并重点解析你主要的职业兴趣」 、「人格特质——帮助你进行自我认知，了解自己思维和决策的偏好，帮助你在专业选择时作出更理性的选择」。</li>
-                    </ul>
-                    <div class="mainBtn">
-                        <div class="mainBtn new">
-                            <div class="mainBtn2">
-                                <a href="javascript:void(0)">了解并测试</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mainLine"></div>
-                </div>
-                <div class="mainBox">
-                    <ul style="overflow-x:inherit;">
-                        <li id="disc-primary" class="subTitle">DISC初级版<div class="subTitle-line"></div></li>
-                        <li class="description">20世纪20年代，美国心理学家威廉.莫尔顿.马斯顿创建了一个理论来解释人的情绪反应，在此之前，这种工作主要局限在对于精神病患者或精神失常人群的研究，而马斯顿博士则希望扩大这个研究范围，以运用于心理健康的普通人群，因此，马斯顿博士将他的理论构建为一个体系，即：The Emotions of Normal People“正常人的情绪”。</li>
-                    </ul>
-                    <div class="mainBtn">
-                        <div class="mainBtn new">
-                            <div class="mainBtn2">
-                                <a href="javascript:void(0)">了解并测试</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mainLine"></div>
-                </div>
-                <div class="mainBox">
-                    <ul style="overflow-x:inherit;">
-                        <li id="disc-advance" class="subTitle">DISC高级版<div class="subTitle-line"></div></li>
-                        <li class="description">DISC完整版报告涵盖了众多直观的因素呈现，比如候选人于团队的正面特征，于团队的价值，应对团队中的冲突、谈判作风、压力状态、如何有效管理、不同职业领域表现预测（管理领域表现预测、技术领域表表现预测、销售领域表现预测、服务领域表现预测）以及发展建议。
-                            DISC完整测评系统一共生成三张图形。分别是“外在行为图示”，“内在行为图示”，以及“综合行为图示”。内在“本我”行为：“本我”是个体天生的、固有的行为模式，代表着个体最自然真实的内在动机和欲求。内在行为模式构成了DISC分析表系列的三个基本图形之一。</li>
-                    </ul>
-                    <div class="mainBtn">
-                        <div class="mainBtn new">
-                            <div class="mainBtn1">
-                                <a href="javascript:void(0)">报告样本</a>
-                            </div>
-                            <div class="mainBtn1 rightBtn">
-                                <a href="javascript:void(0)">开始测试</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mainLine"></div>
-                </div>
-                <div class="mainBox">
-                    <ul style="overflow-x:inherit;">
-                        <li id="huolande" class="subTitle">霍兰德职业兴趣测试<div class="subTitle-line"></div></li>
-                        <li class="description">兴趣测验的研究可以追溯到20世纪初，桑代克于1912 年对兴趣和能力的关系进行了探讨。1915年詹穆士发展了一个关于兴趣的问卷，标志着兴趣测验的系统研究的开始。1927年，斯特朗编制了斯特朗职业兴趣调查表，是最早的职业兴趣测验。库德又在1939 年发表了库德爱好调查表。1953年编制了职业偏好量表，并在此基础上发展了自我指导探索（1969），据此提出了“人格特质与工作环境相匹配”的理论（1970）。不难看出，在Holland职业兴趣理论提出之前，关于职业兴趣测试和个体分析是孤立的，Holland将二者有机结合起来。</li>
-                    </ul>
-                    <div class="mainBtn">
-                        <div class="mainBtn new">
-                            <div class="mainBtn2">
-                                <a href="javascript:void(0)">了解并测试</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mainLine"></div>
-                </div>
-                <div class="mainBox">
-                    <ul style="overflow-x:inherit;">
-                        <li id="zhiyemao" class="subTitle">职业锚测试<div class="subTitle-line"></div></li>
-                        <li class="description">职业锚理论（Career Anchor Theory）产生于在职业生涯规划领域具有“教父”级地位的美国麻省理工大学斯隆商学院、美国著名的职业指导专家埃德加·H·施恩（Edgar.H.Schein）教授领导的专门研究小组，是对该学院毕业生的职业生涯研究中演绎成的。斯隆管理学院的44名MBA毕业生，自愿形成一个小组接受施恩教授长达12年的职业生涯研究，包括面谈、跟踪调查、公司调查、人才测评、问卷等多种方式，最终分析总结出了职业锚(又称职业定位)理论。</li>
-                    </ul>
-                    <div class="mainBtn">
-                        <div class="mainBtn new">
-                            <div class="mainBtn2">
-                                <a href="javascript:void(0)">了解并测试</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
+            <p class="copyright">Copyright ©2019 成都数银科技有限公司</p>
         </div>
-        <div class="footer-container">
-            <div class="text">Copyright ©2019 shuyingkeji.com 成都数银科技有限公司  蜀ICP备xxxxxxx号</div>
-        </div>
-        <!--<div class="footer">
-            <div class="footer-inner">
-                <div>
-                    <ul class="footer-nav" style="float: none; position: relative; overflow: hidden;">
-                        <li class="grid" style="margin-right: 80px;">
-                            <ul class="items" style="width: 260px">
-                                <li class="liHeader">
-                                    <span>联系我们</span>
-                                </li>
-                                <a href="javascript:void(0)">在线客服(工作时间)</a>
-                                <br/>
-                                <li class="contactUs">
-                                    <div>
-                                        <span>技术支持</span>
-                                        <span>服务热线：028-6385-2532</span>
-                                        <span>企业邮箱企业邮箱：sxx@sixuexing.com</span>
-                                        <span>企业QQ：2507819723</span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="grid">
-                            <ul class="items">
-                                <li class="liHeader">
-                                    <span>企业服务</span>
-                                </li>
-                                <li><a href="javascript:void(0)">帮助中心</a></li>
-                                <li><a href="javascript:void(0)">样本下载</a></li>
-                                <li><a href="javascript:void(0)">典型客户</a></li>
-                                <li><a href="javascript:void(0)">一键查询</a></li>
-                                <li><a href="javascript:void(0)">接口文档</a></li>
-                                <li><a href="javascript:void(0)">操作指南</a></li>
-                                <li><a href="javascript:void(0)">视频教程</a></li>
-                            </ul>
-                        </li>
-                        <li class="grid">
-                            <ul class="items">
-                                <li class="liHeader">
-                                    <span>数银相关</span>
-                                </li>
-                                <li><a href="javascript:void(0)">数银作品</a></li>
-                                <li><a href="javascript:void(0)">研究项目</a></li>
-                                <li><a href="javascript:void(0)">公司简介</a></li>
-                                <li><a href="javascript:void(0)">加入我们</a></li>
-                                <li><a href="javascript:void(0)">个人帮助</a></li>
-                                <li><a href="javascript:void(0)">媒体报道</a></li>
-                                <li><a href="javascript:void(0)">默契APP</a></li>
-                            </ul>
-                        </li>
-                        <li class="grid">
-                            <div class="items" style="width: 162px">
-                                <img src="https://www.sixuexing.com/images/7a1be5e083829cd2b701f6cadc9fa2e9.png"
-                                     alt="" style="width: 162px;">
-                                <p style="padding-top: 15px; width: 162px;">公众号:思学行</p>
-                                <div style="margin: 0 auto; margin-top: 10px; width: 162px; text-align: center;" class="gridBox">
-                                    <a href="https://weibo.com/u/6774617268" style="line-height: 32px;">
-                                        <img src="../images/icon_weibo.png" alt="" style="width: 33px;">
-                                        <span style="display: inline;">官方微博</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <p class="copyright">Copyright ©2019 成都数银科技有限公司</p>
-            </div>
-        </div>-->
-    </div>
+    </div>-->
+</div>
 </body>
 <script>
     $(function () {
         $(".ul-nav li").click(function () {
             $(this).addClass("active").siblings().removeClass("active");
         });
-        window.addEventListener('scroll',function () {
-            if($(document).scrollTop()<650){
-                $('.scrollNav').css({top:650-$(document).scrollTop()+'px'})
-            }else{
-                $('.scrollNav').css({top:0})
+        window.addEventListener('scroll', function () {
+            if ($(document).scrollTop() < 750) {
+                $('.scrollNav').css({top: 650 - $(document).scrollTop() + 'px'})
+            } else {
+                $('.scrollNav').css({top: '0!important'})
             }
 
             console.log($(document).width())
-            if($(document).width() < 1600){
-                $(".scrollNav").css({left:0})
-                $(".listMain").css({marginLeft:350,width:1000})
-            }else {
-                $(".listMain").css({margin:'0 auto'})
+            if ($(document).width() < 1600 && $(document).width() > 768) {
+                $(".scrollNav").css({left: 0})
+                $(".listMain").css({marginLeft: 350, width: 1000})
+            } else {
+                $(".listMain").css({margin: '0 auto'})
 
             }
         })
