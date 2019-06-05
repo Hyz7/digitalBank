@@ -449,13 +449,12 @@
             $(this).addClass("active").siblings().removeClass("active");
         });
         window.addEventListener('scroll', function () {
-            if ($(document).scrollTop() < 750) {
-                $('.scrollNav').css({top: 650 - $(document).scrollTop() + 'px'})
+            if ($(document).scrollTop() < 780) {
+                $('.scrollNav').css({top: 680 - $(document).scrollTop() + 'px'})
             } else {
                 $('.scrollNav').css({top: '0!important'})
             }
 
-            console.log($(document).width())
             if ($(document).width() < 1600 && $(document).width() > 768) {
                 $(".scrollNav").css({left: 0})
                 $(".listMain").css({marginLeft: 350, width: 1000})
